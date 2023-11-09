@@ -39,6 +39,7 @@ jobs:
             ghcr.io/tothlp/samba
           tags: |
             type=semver,pattern={{major}}
+            type=raw,value=latest
           flavor: |
             latest=true
       
